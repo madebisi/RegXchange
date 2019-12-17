@@ -2,6 +2,11 @@
   "name": "js-test",
   "version": "0.0.1",
   "description": "technical test from RegXchange",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madebisi/RegXchange.git"
+  },
+  "license": "OSL-3.0",
   "keywords": [
     "RegXchange",
     "express",
