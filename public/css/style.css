@@ -1,0 +1,11 @@
+html {
+  background: #add8e6; /* light blue */
+  margin: 10px;
+}
+.container {
+  margin: 10px;
+  display: block;
+}
+.para {
+  padding: 10px;
+}

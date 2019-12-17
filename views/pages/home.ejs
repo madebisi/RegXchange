@@ -1,0 +1,12 @@
+<%- contentFor('content') %>
+
+<div class="container">
+  <% if (!user) { %>
+  <p class="para">Welcome! Please <a href="/login">log in</a>.</p>
+  <% } else { %>
+  <p>
+    Hello, <%= user.displayName %>. View your <a href="/profile">profile</a>.
+  </p>
+  <p>or you can <a href="/logout">logout</a> here.</p>
+  <% } %>
+</div>
